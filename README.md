@@ -32,7 +32,6 @@ while True:
         c.close()
         break
 ```
-
 ## Server:
 
 ```
@@ -43,7 +42,6 @@ while True:
     print(s.recv(1024).decode())
     s.send("Acknowledgement Recived".encode())
 ```
-
 ## OUTPUT
 ## Client:
 
